@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lines_With_Quantity_gt_1__c</fullName>
+    <externalId>false</externalId>
+    <label># Lines With Quantity &gt; 1</label>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Quantity</field>
+        <operation>greaterThan</operation>
+        <value>1</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
