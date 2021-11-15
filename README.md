@@ -1,5 +1,11 @@
 # Opportunity "Clone With Related" Roll-Up Issue
 
+## A Known Issue!
+
+**Salesforce have acknowledges that this is a [Known Issue](https://trailblazer.salesforce.com/issues_view?id=a1p4V000000oc3CQAQ) now!**
+
+
+
 This repo demonstrates a potential bug with roll-up summaries when an Opportunity is cloned with its related Opportunity
 Products. The problem seems to be specific to roll-up summaries using a condition to count Opportunity Products. 
 If the count in the roll-up is 0, and then the Opportunity is cloned with related products, then the clone Opportunity 
